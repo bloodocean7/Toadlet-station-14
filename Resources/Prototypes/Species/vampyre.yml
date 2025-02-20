@@ -1,6 +1,6 @@
 - type: species
   id: vampyre
-  name: species-name-human
+  name: species-name-vampyre
   roundStart: true
   prototype: MobHuman
   sprites: MobHumanSprites
