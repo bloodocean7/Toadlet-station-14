@@ -1,0 +1,40 @@
+﻿- type: body
+  id: vampyre
+  name: "vampyre"
+  root: torso
+  slots:
+    head:
+      part: Headvampyre
+      connections:
+      - torso
+    torso:
+      part: Torsovampyre
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+    right arm:
+      part: RightArmvampyre
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmvampyre
+      connections:
+      - left hand
+    right hand:
+      part: RightHandvampyre
+    left hand:
+      part: LeftHandvampyre
+    right leg:
+      part: RightLegvampyre
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegvampyre
+      connections:
+      - left foot
+    right foot:
+      part: RightFootvampyre
+    left foot:
+      part: LeftFootvampyre
