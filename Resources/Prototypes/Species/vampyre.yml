@@ -1,0 +1,110 @@
+- type: species
+  id: vampyre
+  name: vampyre
+  roundStart: true
+  prototype: MobVampyrePerson
+  sprites: MobSkeletonSprites
+  defaultSkinTone: "#fff9e2"
+  markingLimits: MobHumanMarkingLimits
+  maleFirstNames: skeletonNamesFirst
+  femaleFirstNames: skeletonNamesFirst
+  dollPrototype: MobSkeletonPersonDummy
+  skinColoration: TintedHues
+
+- type: speciesBaseSprites
+  id: MobVampyreSprites
+  sprites:
+    Head: MobVampyreHead
+    Chest: MobVampyreTorso
+    LArm: MobVampyreLArm
+    RArm: MobVampyreRArm
+    LHand: MobVampyreLHand
+    RHand: MobVampyreRHand
+    LLeg: MobVampyreLLeg
+    RLeg: MobVampyreRLeg
+    LFoot: MobVampyreLFoot
+    RFoot: MobVampyreRFoot
+
+- type: humanoidBaseSprite
+  id: MobVampyreHead
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobVampyreHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobVampyreHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobVampyreTorso
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobVampyreTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobVampyreTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobVampyreLLeg
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobVampyreLArm
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobVampyreLHand
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobVampyreLFoot
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobVampyreRLeg
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobVampyreRArm
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobVampyreRHand
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobVampyreRFoot
+  baseSprite:
+    sprite: Mobs/Species/Human/parts.rsi
+    state: r_foot
